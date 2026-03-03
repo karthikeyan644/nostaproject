@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- css style link -->
+     <link rel="stylesheet" href="style.css">
+     <!--Link Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!--Link Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+        <!-- NavBar -->
+     <section class="nav__container">
+        <nav>
+            <div class="prompt__text">
+                <h2>Sign Up and <strong>GET 20% OFF</strong>  for Your First Order</h2>
+                <i id="close-text" class="fa-solid fa-x"></i>
+            </div>
+            <div class="navbar">
+                <h1>Nostra</h1>
+                <i id="menu__bar" class="fa-solid fa-bars"></i>
+                <ul class="navbar__list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#new__Arrivals">New Arrival</a></li>
+                    <li><a href="#most__wanted">Most Wanted</a></li>
+                    <li><a href="collection.html">Collections</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                
+            </div>
+        </nav>
+     </section>
+
+     <!-- menu sidebar -->
+      <div class="menu-container">
+          <p class=" close__menu">X</p>
+          <ul class="menubar__list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#new__Arrivals">New Arrival</a></li>
+              <li><a href="#most__wanted">Most Wanted</a></li>
+              <li><a href="collection.html">Collections</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+     <!-- contact form -->
+      <section>
+        <div class="contact__container">
+            <h1>Contact Us</h1>
+            <div class="contact__form">
+                <div>
+                <label>Name</label><br>
+                <input id="inputname" type="text" required><br>
+                <span style="color: red; padding-left: 20px;display: none;" class="nameError">Name must contains only letter</span>
+                </div>
+                <div>
+                <label>Email</label><br>
+                <input id="inputemail" type="email" required><br>
+                <span style="color: red; padding-left: 20px;display: none;"  class="emailError">please provide valid Email</span>
+                </div>
+                <div>
+                <label>Message</label><br>
+                <textarea id="inputtext" type="text" required></textarea><br>
+                <p id="textResult" style="color: white;padding-left: 20px;"></p>
+                </div>
+            
+            <button type="submit" id="submit">Submit</button>
+            </div>
+        </div>
+      </section>
+
+
+     <!-- Subscription -->
+            <section class="Subscribe__conatiner">
+                <h1>Join Our News Letter</h1>
+                <p>Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+                <input type="text"> <br>
+                <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+            </section>
+
+        <!-- footer -->
+        <section class="footer__container">
+                <div class="footer__box">
+                <h1>Nostra</h1>
+                <h3>The Standards Of All Brands | New Collections  </h3>
+                <div class="footer__icon">
+                    <i class="icon fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="icon fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="icon fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+                <h3>@ 1985 Nostra.com</h3>
+                </div>
+        </section>
+     <script src="contact.js"></script>
+</body>
+</html>
