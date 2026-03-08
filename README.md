@@ -55,9 +55,5 @@ Improving UI/UX design skills
 📌 Author
 
 D Karthikeyan
-
-
-
-💼 A LinkedIn post description for this project
-
-Just tell me 😊
+  
+https://karthikeyan644.github.io/nostaproject/index.html
